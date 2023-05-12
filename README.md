@@ -4,7 +4,7 @@ gait phase diagram, leg trajectory planning is carried out. This involves genera
 steps: MATLAB Simulation, Gazebo Simulation using ROS Melodic on [Dreamwalker](https://github.com/Daemiac/Dreamwalker) quaduped robot and then on hardware. Hardware implementation is caried out on a quaruped walking dog called Petoi.
 ## MATLAB Simulation:
 For running the animation of a walking quadruped robot in MATLAB, download the files from *Gait and Trajectory generation* folder in a same folder. Then run *main.m*.
-While running *main.m* run section 1, 2, 3 and 6 for animation. The animation is shown below
+While running *main.m* run section 1, 2, 3 and 6 for animation. The Matlab Simulation is shown below:
 
 
 https://github.com/abizerPatanwala/Gait-Generation-and-Trajectory-Planning-of-a-Quadraped-Walking-Robot/assets/52460321/ec722337-b33c-4868-b98a-8fda96db4229
@@ -13,7 +13,12 @@ https://github.com/abizerPatanwala/Gait-Generation-and-Trajectory-Planning-of-a-
 ## Gazebo Simulation:
 Put the dreamwalker in a source file of a catkin workspace. Build the workspace and source it. Download files from *ROSMatlab* folder. Open *DreamWalker_control.m*. Then on ubuntu terminal run 
 *roslaunch dreamwalker_simulation dreamwalker_simulation.launch*
-Once the gazebo simulations starts. Press Play and run the Matlab code *DreamWalker_control.m*. Ensure that the JointAngles.mat is in the same directory as the MATLAB code. This should enable the robot to walk.
+Once the gazebo simulations starts. Press Play and run the Matlab code *DreamWalker_control.m*. Ensure that the JointAngles.mat is in the same directory as the MATLAB code. This should enable the robot to walk. The Gazebo simulation is shown below:
+
+
+https://github.com/abizerPatanwala/Gait-Generation-and-Trajectory-Planning-of-a-Quadraped-Walking-Robot/assets/52460321/1f8d24f7-b5f1-4355-acd6-49282c30a3a9
+
+
 ## Hardware Implementation:
 The joint angles obtained from trajectory planning were implemented on the Petoi Dog. This enabled the dog to walk using forward wave gait. The relevant files
-are in the folder OpenCat
+are in the folder OpenCat.
