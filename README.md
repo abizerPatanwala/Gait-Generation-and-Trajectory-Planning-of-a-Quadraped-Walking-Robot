@@ -4,7 +4,12 @@ gait phase diagram, leg trajectory planning is carried out. This involves genera
 steps: MATLAB Simulation, Gazebo Simulation using ROS Melodic on [Dreamwalker](https://github.com/Daemiac/Dreamwalker) quaduped robot and then on hardware. Hardware implementation is caried out on a quaruped walking dog called Petoi.
 ## MATLAB Simulation:
 For running the animation of a walking quadruped robot in MATLAB, download the files from *Gait and Trajectory generation* folder in a same folder. Then run *main.m*.
-While running *main.m* run section 1, 2, 3 and 6 for animation.
+While running *main.m* run section 1, 2, 3 and 6 for animation. The animation is shown below
+
+
+https://github.com/abizerPatanwala/Gait-Generation-and-Trajectory-Planning-of-a-Quadraped-Walking-Robot/assets/52460321/ec722337-b33c-4868-b98a-8fda96db4229
+
+
 ## Gazebo Simulation:
 Put the dreamwalker in a source file of a catkin workspace. Build the workspace and source it. Download files from *ROSMatlab* folder. Open *DreamWalker_control.m*. Then on ubuntu terminal run 
 *roslaunch dreamwalker_simulation dreamwalker_simulation.launch*
