@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find dreamwalker_description)/urdf/dreamwalker.urdf'"/>
+
+	<!-- send fake joint values --> 
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+		<param name="use_gui" value="False"/>
+	</node>
+	
+	
+	<!-- Combine joint values -->
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+	<!-- Show on RVIZ -->
+	<node name="rviz" pkg="rviz" type="rviz" args=" -d $(find dreamwalker_description)/rviz/dreamwalker_1.rviz" />
+
+</launch>

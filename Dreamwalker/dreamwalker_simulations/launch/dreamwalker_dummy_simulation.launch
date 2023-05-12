@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+ <!-- launching simulation enviroment -->
+
+ <!-- overwriting args -->
+ <arg name="debug" default="false" />
+ <arg name="gui" default="true" />
+ <arg name="pause" default="false" />
+ <arg name="world" default="$(find dreamwalker_simulations)/world/empty_world.world" />
+
+ <!-- include gazebo_ros launcher -->
+ <include file="$(find gazebo_ros)/launch/empty_world.launch">
+  <arg name="world_name" value="$(arg world)"/>
+  <arg name="debug" value="$(arg debug)"/>
+  <arg name="gui" value="$(arg gui)"/>
+  <arg name="paused" value="$(arg pause)"/>
+  <arg name="use_sim_time" value="true"/>
+ </include>
+
+
+ <!-- spawning the robot inside the simulation -->
+
+ <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find dreamwalker_description)/urdf/dreamwalker_dummy.urdf'"/>
+
+	<!-- initial position of the robot -->
+	<arg name="x" default="0"/>
+	<arg name="y" default="0"/>
+	<arg name="z" default="0"/>
+
+ <node name="my_robot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"		  args="-urdf -param robot_description -model dreamwalker_dummy -x $(arg x) -y $(arg y) -z $(arg z)" />
+
+
+ <!-- Enabling controllers -->
+
+ <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find dreamwalker_control)/config/dreamwalker_control.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/dreamwalker" args="joint_state_controller 
+    shoulder_joint1_position_controller 
+    shoulder_joint2_position_controller 
+    shoulder_joint3_position_controller 
+    shoulder_joint4_position_controller 
+    limb_joint1_position_controller 
+    limb_joint2_position_controller 
+    limb_joint3_position_controller 
+    limb_joint4_position_controller 
+    knee_joint1_position_controller 
+    knee_joint2_position_controller 
+    knee_joint3_position_controller 
+    knee_joint4_position_controller"/>
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <remap from="/joint_states" to="/dreamwalker/joint_states" />
+  </node>
+
+  
+
+</launch>

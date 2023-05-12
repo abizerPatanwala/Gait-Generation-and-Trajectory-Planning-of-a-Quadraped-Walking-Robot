@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<world name="default">
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+		<!-- A ground plane -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+		<!-- A random postbox -->
+		<include>
+			<uri>model://postbox</uri>
+			<static>true</static>
+			<pose>5 10 0 0 0 0</pose>		
+		</include>
+		<!-- KITCHEN CHAIR HUE -->
+		<!--		
+		<include>
+			<uri>model://pine_tree</uri>
+			<static>false</static>
+			<pose>4 4 0 0 0 0</pose>		
+		</include> -->
+		<!-- CONSTRUCTION BARRELS -->
+		<include>
+			<uri>model://construction_barrel</uri>
+			<static>false</static>
+			<pose>6 0 0 0 0 0</pose>		
+		</include>
+		<include>
+			<uri>model://construction_barrel</uri>
+			<static>false</static>
+			<pose>-6 0 0 0 0 0</pose>		
+		</include>
+		<include>
+			<uri>model://construction_barrel</uri>
+			<static>false</static>
+			<pose>0 6 0 0 0 0</pose>		
+		</include>
+		<include>
+			<uri>model://construction_barrel</uri>
+			<static>false</static>
+			<pose>0 -6 0 0 0 0</pose>		
+		</include>
+
+	</world>
+</sdf>

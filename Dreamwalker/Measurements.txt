@@ -1,0 +1,589 @@
+main_body
+
+Component Instances (1)
+Area	1.335E+05 mm^2
+Density	0.001 g / mm^3
+Mass	387.559 g
+Volume	3.663E+05 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 160.00 mm
+	Width 	 220.00 mm
+	Height 	 33.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	0.012 mm, 0.014 mm, 15.60 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 1.096E+06
+	Ixy = 80.024
+	Ixz = -71.131
+	Iyx = 80.024
+	Iyy = 6.744E+05
+	Iyz = -5.436
+	Izx = -71.131
+	Izy = -5.436
+	Izz = 1.658E+06
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.190E+06
+	Ixy = 79.958
+	Ixz = -145.602
+	Iyx = 79.958
+	Iyy = 7.687E+05
+	Iyz = -89.339
+	Izx = -145.602
+	Izy = -89.339
+	Izz = 1.658E+06
+
+
+####################################################
+
+
+link_shoulder1 v1
+
+Component Instances (1)
+Area	9836.228 mm^2
+Density	0.001 g / mm^3
+Mass	19.857 g
+Volume	1.624E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 37.00 mm
+	Width 	 45.00 mm
+	Height 	 17.50 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	-8.165 mm, 22.472 mm, -3.831E-04 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 3218.011
+	Ixy = 199.995
+	Ixz = -0.05
+	Iyx = 199.995
+	Iyy = 1946.476
+	Iyz = -0.086
+	Izx = -0.05
+	Izy = -0.086
+	Izz = 4027.678
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.325E+04
+	Ixy = 3843.27
+	Ixz = -0.112
+	Iyx = 3843.27
+	Iyy = 3270.192
+	Iyz = 0.085
+	Izx = -0.112
+	Izy = 0.085
+	Izz = 1.538E+04
+
+
+####################################################
+
+
+link_shoulder2 v1
+
+Component Instances (1)
+Area	9836.228 mm^2
+Density	0.001 g / mm^3
+Mass	19.857 g
+Volume	1.624E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 37.00 mm
+	Width 	 45.00 mm
+	Height 	 17.50 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	8.165 mm, 22.472 mm, 3.831E-04 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 3218.011
+	Ixy = -199.995
+	Ixz = -0.05
+	Iyx = -199.995
+	Iyy = 1946.476
+	Iyz = 0.086
+	Izx = -0.05
+	Izy = 0.086
+	Izz = 4027.678
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.325E+04
+	Ixy = -3843.27
+	Ixz = -0.112
+	Iyx = -3843.27
+	Iyy = 3270.192
+	Iyz = -0.085
+	Izx = -0.112
+	Izy = -0.085
+	Izz = 1.538E+04
+
+
+####################################################
+
+
+link_shoulder3 v1
+
+Component Instances (1)
+Area	9836.228 mm^2
+Density	0.001 g / mm^3
+Mass	19.857 g
+Volume	1.624E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 37.00 mm
+	Width 	 45.00 mm
+	Height 	 17.50 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	-8.165 mm, -22.472 mm, 3.831E-04 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 3218.011
+	Ixy = -199.995
+	Ixz = 0.05
+	Iyx = -199.995
+	Iyy = 1946.476
+	Iyz = -0.086
+	Izx = 0.05
+	Izy = -0.086
+	Izz = 4027.678
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.325E+04
+	Ixy = -3843.27
+	Ixz = 0.112
+	Iyx = -3843.27
+	Iyy = 3270.192
+	Iyz = 0.085
+	Izx = 0.112
+	Izy = 0.085
+	Izz = 1.538E+04
+
+
+####################################################
+
+
+link_shoulder4 v1
+
+Component Instances (1)
+Area	9836.228 mm^2
+Density	0.001 g / mm^3
+Mass	19.857 g
+Volume	1.624E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 37.00 mm
+	Width 	 45.00 mm
+	Height 	 17.50 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	8.165 mm, -22.472 mm, -3.831E-04 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 3218.011
+	Ixy = 199.995
+	Ixz = 0.05
+	Iyx = 199.995
+	Iyy = 1946.476
+	Iyz = 0.086
+	Izx = 0.05
+	Izy = 0.086
+	Izz = 4027.678
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.325E+04
+	Ixy = 3843.27
+	Ixz = 0.112
+	Iyx = 3843.27
+	Iyy = 3270.192
+	Iyz = -0.085
+	Izx = 0.112
+	Izy = -0.085
+	Izz = 1.538E+04
+
+
+####################################################
+
+
+link_femur1 v1
+
+Component Instances (1)
+Area	1.006E+04 mm^2
+Density	0.001 g / mm^3
+Mass	21.797 g
+Volume	1.807E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 29.50 mm
+	Width 	 30.00 mm
+	Height 	 85.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	-12.278 mm, 3.634E-04 mm, -31.262 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 1.388E+04
+	Ixy = -0.022
+	Ixz = -908.897
+	Iyx = -0.022
+	Iyy = 1.369E+04
+	Iyz = 0.04
+	Izx = -908.897
+	Izy = 0.04
+	Izz = 1695.609
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 3.518E+04
+	Ixy = 0.075
+	Ixz = -9275.527
+	Iyx = 0.075
+	Iyy = 3.827E+04
+	Iyz = 0.287
+	Izx = -9275.527
+	Izy = 0.287
+	Izz = 4981.615
+
+
+####################################################
+
+
+link_femur2 v1
+
+Component Instances (1)
+Area	1.006E+04 mm^2
+Density	0.001 g / mm^3
+Mass	21.797 g
+Volume	1.807E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 29.50 mm
+	Width 	 30.00 mm
+	Height 	 85.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	12.278 mm, -3.634E-04 mm, -31.262 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 1.388E+04
+	Ixy = -0.022
+	Ixz = 908.897
+	Iyx = -0.022
+	Iyy = 1.369E+04
+	Iyz = -0.04
+	Izx = 908.897
+	Izy = -0.04
+	Izz = 1695.609
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 3.518E+04
+	Ixy = 0.075
+	Ixz = 9275.527
+	Iyx = 0.075
+	Iyy = 3.827E+04
+	Iyz = -0.287
+	Izx = 9275.527
+	Izy = -0.287
+	Izz = 4981.615
+
+
+####################################################
+
+
+link_femur3 v1
+
+Component Instances (1)
+Area	1.006E+04 mm^2
+Density	0.001 g / mm^3
+Mass	21.797 g
+Volume	1.807E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 29.50 mm
+	Width 	 30.00 mm
+	Height 	 85.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	-12.278 mm, 3.634E-04 mm, -31.262 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 1.388E+04
+	Ixy = -0.022
+	Ixz = -908.897
+	Iyx = -0.022
+	Iyy = 1.369E+04
+	Iyz = 0.04
+	Izx = -908.897
+	Izy = 0.04
+	Izz = 1695.609
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 3.518E+04
+	Ixy = 0.075
+	Ixz = -9275.527
+	Iyx = 0.075
+	Iyy = 3.827E+04
+	Iyz = 0.287
+	Izx = -9275.527
+	Izy = 0.287
+	Izz = 4981.615
+
+
+####################################################
+
+
+link_femur4 v1
+
+Component Instances (1)
+Area	1.006E+04 mm^2
+Density	0.001 g / mm^3
+Mass	21.797 g
+Volume	1.807E+04 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 29.50 mm
+	Width 	 30.00 mm
+	Height 	 85.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	12.278 mm, -3.634E-04 mm, -31.262 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 1.388E+04
+	Ixy = -0.022
+	Ixz = 908.897
+	Iyx = -0.022
+	Iyy = 1.369E+04
+	Iyz = -0.04
+	Izx = 908.897
+	Izy = -0.04
+	Izz = 1695.609
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 3.518E+04
+	Ixy = 0.075
+	Ixz = 9275.527
+	Iyx = 0.075
+	Iyy = 3.827E+04
+	Iyz = -0.287
+	Izx = 9275.527
+	Izy = -0.287
+	Izz = 4981.615
+
+
+####################################################
+
+
+link_forearm1, link_forearm2
+
+Longer_tibia
+
+Component Instances (1)
+Area	3859.718 mm^2
+Density	0.001 g / mm^3
+Mass	7.298 g
+Volume	6885.015 mm^3
+Physical Material	ABS Plastic
+
+Bounding Box
+	Length 	 5.00 mm
+	Width 	 20.00 mm
+	Height 	 92.50 mm
+World X,Y,Z	-2.50 mm, 0.00 mm, 0.00 mm
+Center of Mass	-2.50 mm, 0.90 mm, -32.102 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 5046.405
+	Ixy = 0.00
+	Ixz = 0.00
+	Iyx = 0.00
+	Iyy = 4893.134
+	Iyz = 99.01
+	Izx = 0.00
+	Izy = 99.01
+	Izz = 183.68
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.257E+04
+	Ixy = 16.412
+	Ixz = -585.717
+	Iyx = 16.412
+	Iyy = 1.246E+04
+	Iyz = 309.761
+	Izx = -585.717
+	Izy = 309.761
+	Izz = 235.199
+
+
+####################################################
+
+
+link_foot1 v1 link_foot2 v1 link_foot3 v1 link_foot4 v1
+
+Component Instances (1)
+Area	1073.368 mm^2
+Density	9.300E-04 g / mm^3
+Mass	1.306 g
+Volume	1403.783 mm^3
+Physical Material	Rubber, Black
+
+Bounding Box
+	Length 	 13.00 mm
+	Width 	 20.00 mm
+	Height 	 10.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	0.00 mm, 0.00 mm, -4.355 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 43.185
+	Ixy = 0.00
+	Ixz = 0.00
+	Iyx = 0.00
+	Iyy = 29.326
+	Iyz = 0.00
+	Izx = 0.00
+	Izy = 0.00
+	Izz = 54.089
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 67.947
+	Ixy = 0.00
+	Ixz = 0.00
+	Iyx = 0.00
+	Iyy = 54.089
+	Iyz = 0.00
+	Izx = 0.00
+	Izy = 0.00
+	Izz = 54.089
+
+
+####################################################
+
+m_sensor_link, b_sensor_link
+
+fb_sensor v1
+
+Component Instances (1)
+Area	5540.404 mm^2
+Density	0.001 g / mm^3
+Mass	10.172 g
+Volume	7842.484 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 50.00 mm
+	Width 	 29.30 mm
+	Height 	 22.50 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	2.788E-04 mm, 15.906 mm, 10.99 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 566.328
+	Ixy = -0.004
+	Ixz = 1.025
+	Iyx = -0.004
+	Iyy = 2259.218
+	Iyz = -94.40
+	Izx = 1.025
+	Izy = -94.40
+	Izz = 2156.532
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 4368.418
+	Ixy = -0.049
+	Ixz = 0.994
+	Iyx = -0.049
+	Iyy = 3487.73
+	Iyz = -1872.509
+	Izx = 0.994
+	Izy = -1872.509
+	Izz = 4730.11
+
+
+
+####################################################
+
+l_sensor_link, r_sensor_link
+
+link_rl_sensor v1
+
+Component Instances (1)
+Area	5346.473 mm^2
+Density	0.001 g / mm^3
+Mass	9.834 g
+Volume	7523.11 mm^3
+Physical Material	(Various)
+
+Bounding Box
+	Length 	 30.00 mm
+	Width 	 24.30 mm
+	Height 	 52.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	-2.249E-08 mm, 13.365 mm, 24.947 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 2392.374
+	Ixy = -9.894E-07
+	Ixz = 3.435E-07
+	Iyx = -9.894E-07
+	Iyy = 2455.416
+	Iyz = -93.261
+	Izx = 3.435E-07
+	Izy = -93.261
+	Izz = 406.513
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 1.027E+04
+	Ixy = 1.967E-06
+	Ixz = 5.862E-06
+	Iyx = 1.967E-06
+	Iyy = 8575.267
+	Iyz = -3372.018
+	Izx = 5.862E-06
+	Izy = -3372.018
+	Izz = 2163.132
+
+####################################################
+
+
+######SUPPORT TEST ELEMENT######
+
+Support
+
+Component Instances (1)
+Area	8.400E+04 mm^2
+Density	7.210E-04 g / mm^3
+Mass	556.612 g
+Volume	7.720E+05 mm^3
+Physical Material	Oak, White
+
+Bounding Box
+	Length 	 100.00 mm
+	Width 	 140.00 mm
+	Height 	 190.00 mm
+World X,Y,Z	0.00 mm, 0.00 mm, 0.00 mm
+Center of Mass	0.00 mm, 0.00 mm, 81.632 mm
+
+Moment of Inertia at Center of Mass   (g mm^2)
+	Ixx = 2.858E+06
+	Ixy = 0.00
+	Ixz = 0.00
+	Iyx = 0.00
+	Iyy = 2.726E+06
+	Iyz = 0.00
+	Izx = 0.00
+	Izy = 0.00
+	Izz = 6.479E+05
+
+Moment of Inertia at Origin   (g mm^2)
+	Ixx = 6.568E+06
+	Ixy = 0.00
+	Ixz = 0.00
+	Iyx = 0.00
+	Iyy = 6.436E+06
+	Iyz = 0.00
+	Izx = 0.00
+	Izy = 0.00
+	Izz = 6.479E+05
