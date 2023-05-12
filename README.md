@@ -1,7 +1,7 @@
 # Gait-Generation-and-Trajectory-Planning-of-a-Quadraped-Walking-Robot
 This project implements a forward walking wave gait on a quadrauped robot. First the forward wave gait is generated with a duty factor of 0.75. Then based on the resultant
 gait phase diagram, leg trajectory planning is carried out. This involves generating joint angles for each leg to folow the gait phase diagram. The project is carried out in 3 
-steps: MATLAB Simulation, Gazebo Simulation using ROS  and then on hardware. Hardware implementation is caried out on a quaruped walking dog called Petoi.
+steps: MATLAB Simulation, Gazebo Simulation using ROS Melodic on [Dreamwalker](https://github.com/Daemiac/Dreamwalker) quaduped robot .  and then on hardware. Hardware implementation is caried out on a quaruped walking dog called Petoi.
 ## MATLAB Simulation:
 For running the animation of a walking quadruped robot in MATLAB, download the files from *Gait and Trajectory generation* folder in a same folder. Then run *main.m*.
 While running *main.m* run section 1, 2, 3 and 6 for animation.
